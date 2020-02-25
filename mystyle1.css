@@ -1,0 +1,89 @@
+body{
+	list-style-type:none;
+	 background-color:gray;
+	background-image:url('https://images.unsplash.com/photo-1470790376778-a9fbc86d70e2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60');
+}
+h1{
+	
+	text-align:center;
+	font-size:14;
+	color:Black;
+}
+/*p.main{
+
+ text-align:center;
+ margin: 0;
+ position: absolute;              
+ top: 50%;  
+ left:50%;
+ transform: translate(-50%, -50%);
+ font-family:Calibri;
+ color:red;
+ }
+ 
+ .navbar1 {
+  list-style-type:none;
+  overflow:auto;
+  width:100%;
+}
+
+/* Navigation links */
+/*.navbar1 a {
+  float: left;
+  padding: 2px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  width: 23%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. 
+  text-align: center; /* If you want the text to be centered */
+}
+
+/* Add a background color on mouse-over 
+.navbar1 a:hover {
+  background-color: #000;
+  font-size:14;
+}
+
+/* Style the current/active link 
+.navbar1 a.active {
+  background-color: #4CAF64;
+}
+
+/* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other 
+@media screen and (max-width: 500px) {
+  .navbar1 a {
+    float: right;
+    
+    width: 90%;
+    text-align:center; /* If you want the text to be left-aligned on small screens 
+  }
+
+  }*/
+.vertical-menu {
+  overflow:auto;
+width:100%;  /* Set a width if you like */
+}
+
+.vertical-menu a {
+	text-align:center;
+  background-color: #eee; /* Grey background color */
+  color: black; /* Black text color */
+  display: block; /* Make the links appear below each other */
+   /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+  padding: 2px;
+  margin:60px;
+  text-decoration: none;
+  font-size: 20px;
+   /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. 
+  text-align: center;
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.active {
+  background-color: #4CAF50; /* Add a green color to the "active/current" link */
+  color: white;
+}
